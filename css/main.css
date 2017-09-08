@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+    width: 95%;
     max-width: 1260px;
     background: #fff;
 }
@@ -31,4 +32,28 @@ header h1 {
 header h2 {
     font-size: 1.618em;
     font-weight: 300;
+}
+
+
+/* -----------------------------------------------------------------
+    HEADER
+ ----------------------------------------------------------------*/
+
+main img{
+    
+}
+
+main h3{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+main p {
+    font-size: .875em;
+    line-height: 1.4;
+}
+
+main button {
+    background: #4a89ca !important;
+    font-weight: 700;
 }
