@@ -2,13 +2,18 @@
     GLOBAL STYLE
  ----------------------------------------------------------------*/
 
-body{
+html {
+    font-size: 1em;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     color: #373737;
     background: #eaeaea;
 }
 
-.container{
+.container {
     max-width: 1260px;
     background: #fff;
 }
+
