@@ -22,12 +22,37 @@
 main button {
     -webkit-transition-property: background;
     transition-property: background;
-    -webkit-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
 main button:hover {
     background: tomato !important;
+}
+
+.overlay button {
+    opacity: 0;
+    border-radius: 10px;
+
+    -webkit-transition-property: opacity, -webkit-box-shadow;
+    transition-property: opacity, -webkit-box-shadow;
+    transition-property: opacity, box-shadow;
+    transition-property: opacity, box-shadow, -webkit-box-shadow;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-delay: 0.2s, 0s;
+    transition-delay: 0.2s, 0s;
+}
+
+.overlay button:hover{
+    opacity: 1 !important;
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, .7);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .7);
+}
+
+.overlay:hover button {
+    opacity: 0.7;
+        background: #4a89ca !important;
 }
 
 
