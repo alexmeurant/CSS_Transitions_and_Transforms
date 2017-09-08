@@ -39,7 +39,7 @@ header h2 {
     HEADER
  ----------------------------------------------------------------*/
 
-main h3{
+main h3 {
     font-size: 1.3em;
     font-weight: 700;
 }
@@ -52,4 +52,33 @@ main p {
 main button {
     background: #4a89ca !important;
     font-weight: 700;
+}
+
+
+/* -----------------------------------------------------------------
+    IMAGE CONTENT
+ ----------------------------------------------------------------*/
+
+.photo {
+    position: relative;
+}
+
+.overlay {
+    color: white;
+    background: rgba(0, 0, 0, .65);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
