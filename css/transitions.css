@@ -13,3 +13,21 @@
 .overlay:hover {
     opacity: 1;
 }
+
+
+/* -------------------------------------------------------------
+      Button transitions
+---------------------------------------------------------------*/
+
+main button {
+    -webkit-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.5s;
+}
+
+main button:hover {
+    background: tomato !important;
+}
+
+
