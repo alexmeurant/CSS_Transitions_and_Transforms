@@ -82,3 +82,106 @@ main button {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
+
+/* -----------------------------------------------------------------
+    Media Queries
+ ----------------------------------------------------------------*/
+
+@media (max-width: 362px) {
+    /* ----- 2D images ------------*/
+    .overlay {
+        padding-top: 0 !important;
+    }
+    .overlay h3 {
+        font-size: 1.2em !important;
+        margin-top: 7% !important;
+        margin-bottom: 3% !important;
+    }
+    .overlay p {
+        margin-top: 0 !important;
+        margin-bottom: 5% !important;
+    }
+    .overlay button {
+        font-size: 0.8em !important;
+        padding-top: 1.2em !important;
+        padding-bottom: 1.2em !important;
+ 
+        margin-bottom: 5% !important;
+    }
+}
+
+@media (min-width: 363px) and (max-width: 574px) {
+    /* ----- 2D images ------------*/
+    .overlay {
+        padding-top: 0 !important;
+    }
+    .overlay h3 {
+        margin-top: 5% !important;
+        margin-bottom: 5% !important;
+    }
+    .overlay p {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .overlay button {
+        font-size: 1em !important;
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+        margin-top: 7% !important;
+    }
+
+    /* ----- 3D images ------------*/
+    .side-b {
+        padding-top: 3em !important;
+    }
+    .side-b p {
+        margin-top: 0.2em !important;
+    }
+    .side-b button {
+        padding: 1.2em;
+        margin-top: 1em !important;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+    
+    /* ----- 2D images ------------*/
+    .overlay {
+        padding-top: 0 !important;
+    }
+    .overlay h3 {
+        font-size: 2em;
+        margin-bottom: 5% !important;
+    }
+    .overlay p {
+        font-size: 1.414em;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .overlay button {
+        font-size: 1.5em;
+        padding: 1em !important;
+        margin-top: 5% !important;
+    }
+    
+    .btn-icon {
+        width: 25px !important;
+        height: 25px !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    /* ----- 3D images ------------*/
+    .side-b h3 {
+        font-size: 2.5em;
+    }
+    .side-b p {
+        font-size: 1.614em;
+    }
+    .side-b button {
+        font-size: 2em;
+        padding: 1.2em;
+        margin-top: 5% !important;
+    }
+}
