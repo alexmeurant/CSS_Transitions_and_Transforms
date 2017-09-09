@@ -82,3 +82,23 @@ main button:hover {
     opacity: 1;
     left: 70%;
 }
+
+
+/* -------------------------------------------------------------
+      Image Transforms and Transitions
+---------------------------------------------------------------*/
+
+
+/* ------------ 1st image selected ----------*/
+
+img[src*="photos/1"] {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+img[src*="photos/1"]:hover {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+}
