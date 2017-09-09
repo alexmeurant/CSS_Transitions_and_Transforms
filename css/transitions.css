@@ -115,3 +115,18 @@ img[src*="photos/1"]:hover {
     -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
 }
+
+
+/* ------------ 2nd image selected ----------*/
+
+img[src*="photos/2"] {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+img[src*="photos/2"]:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
