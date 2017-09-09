@@ -89,6 +89,19 @@ main button:hover {
 ---------------------------------------------------------------*/
 
 
+/* ------------- logo selected --------------*/
+
+.logo {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
 /* ------------ 1st image selected ----------*/
 
 img[src*="photos/1"] {
