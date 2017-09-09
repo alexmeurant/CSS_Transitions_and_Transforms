@@ -130,3 +130,25 @@ img[src*="photos/2"]:hover {
     -webkit-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
+
+
+/* ------------ 4th, 5th and 6th images selected ----------*/
+
+.photo{
+    overflow: hidden;
+}
+
+.photo img {
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.photo-container:nth-child(n+4):nth-child(-n+6):hover img {
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+.photo-container:nth-child(n+4):nth-child(-n+6):hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
