@@ -121,7 +121,8 @@ img[src*="photos/1"]:hover {
 
 img[src*="photos/2"] {
     -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .4s cubic-bezier(0.6, 1.5, 0.6, 1.5);
+    transition: .4s cubic-bezier(0.6, 1.5, 0.6, 1.5);
 }
 
 img[src*="photos/2"]:hover {
@@ -147,7 +148,7 @@ img[src*="photos/3"]:hover {
 
 /* ------------ 4th, 5th and 6th images selected ----------*/
 
-.photo{
+.photo {
     overflow: hidden;
 }
 
